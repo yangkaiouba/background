@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录</title>
+		<style>
+		   *{
+			   margin: 0;
+			   padding: 0;
+		   }
+		   body>div:nth-of-type(1){
+			   position: fixed;
+		   }
+		   body>div:nth-of-type(2){
+			   background-color: #fff;
+			   height: 740px;
+			   width: 1150px; 
+			   position:absolute;
+			   left: 350px;
+		   }
+		   body>div:nth-of-type(1)>img{
+			     width: 350px;
+				height: 780px;	
+		   }
+		   body>div{
+			   float: left;
+		   }
+		   .gu img{
+			   vertical-align: middle;
+			   width: 40px;
+		   }
+		   .gu>div:nth-of-type(1){
+			   font-size: 26px;
+			   margin:25px 610px 0 25px;
+			   float: left;
+		   }
+		   .gu>div:nth-of-type(1)~div{
+			   font-size: 14px;
+			   float: left;
+			   color: #838383;
+			   margin-top: 32px;
+			   padding-left: 10px;
+			   padding-right: 10px;
+		   }
+		   .gu>div:last-of-type{
+			   clear: rigth;
+		   }
+		   .gg{
+			   width: 445px;
+			   height: 556px;
+			   margin: 100px 360px;
+			   border-radius: 5px;
+			   background-color: #fff;
+			   box-shadow: 0 20px 50px 0 hsl(0deg 0% 64% / 10%);
+		   }
+		   .gg>div:nth-of-type(1)>div{
+			   float: left;
+			   font-size: 22px;
+			  
+			}
+		   .gh>div:nth-of-type(1)>a{
+			   color: #000;
+				font-weight: 500;
+		   }
+		  .gh>div:nth-of-type(2)>a{
+		   			    color: #bbb;
+		   				font-weight: 500;
+		   }
+		   .gh>div:nth-of-type(1){
+			   margin:45px 10px 0 40px;
+		   }
+		    .gh>div:nth-of-type(2){
+				 margin:45px 0 0 10px;
+			}
+			.gg>div:nth-of-type(2){
+				clear: left;
+			}
+			.gg>div:nth-of-type(2)>input,.gg>div:nth-of-type(3)>input{
+				width: 324px;
+				height: 60px;
+				border: none;
+				padding-left: 20px;
+				font-size: 17px;
+				color: rgba(0,0,0,.4);
+				background-color: #f9f9f9;
+				outline: none;
+			}
+			.gg>div:nth-of-type(2)>input{
+				margin: 30px 42px 10px;
+				border-radius: 5px;
+				
+			}
+			.gg>div:nth-of-type(3)>input{
+				margin: 15px 42px 10px;	
+				border-radius: 5px;
+			}
+			.dd>div{
+				width: 20px;
+				height: 20px;
+				background-color: #f9f9f9;
+				display: inline-block;
+				vertical-align: middle;
+				margin-left: 43px;
+				border-radius:4px ;
+				cursor: pointer;
+			}
+			.dd>div:hover{
+				background-color: orangered;
+			}
+			.dd{
+				color: #bbb;
+				margin-top: 10px;
+				font-size: 14px;
+			}
+			.dd>span{
+				color: rgba(0,0,0,.6);
+			}
+			.gg>div:nth-of-type(5)>input{
+				width: 342px;
+				height:60px ;
+				font-size: 18px;
+				color: #fff;
+				background-color: #ffbe99;
+				border: none;
+				border-radius: 5px;
+				margin: 20px 0 10px 43px;
+				cursor: pointer;
+			}
+			.gg>div:nth-of-type(5)>input:hover{
+				background-color: orangered;
+			}
+			.kpl>div:nth-of-type(1){
+				 float: left;
+				 font-size: 17px;
+				 color: #ff6f1d;
+				 margin-left: 43px;
+			}
+			.kpl>div:nth-of-type(2){
+				 float: right;
+				 font-size: 17px;
+				 color: #ff6f1d;
+				 margin-right: 58px;
+			}
+			.gg>div:nth-of-type(7){
+				font-size: 17px;
+				color: #AAAAAA;
+				text-align: center;
+				clear: both;
+				margin-top: 50px;
+			}
+			.gg>div:last-of-type>img{
+				width: 445px;
+				margin-top: 20px;
+			}
+			.gg+div{
+				text-align: center;
+				font-size: 12px;
+				color: #999999;
+			}
+			.gu>div{
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		  <div><img src="hh.img/banner.5b1efcd8.jpg"/></div>
+		  <div>
+			  <div class="gu">
+				  <div> <img src="hh.img/favicon_new.ico"/> 小米账号</div>
+				  <div>用户协议</div>
+				  <div>隐私政策</div>
+				  <div>帮助中心</div>
+				  <div>|</div>
+				  <div>中文(简体)</div>
+			  </div>
+			  <div class="gg">
+				  <div class="gh">
+					  <div><a href="0">登录</a></div>
+					  <div><a href="0">注册</a></div>
+				  </div>
+				  <div><input type="text" value="邮箱/手机号码/小米ID"></div>
+				  <div><input type="password" placeholder="密码"></div>
+				  <div class="dd">
+					   <div></div>
+					   已阅读并同意小米账户
+					  <span>用户协议</span>
+					     和
+					  <span>隐私政策</span>
+				  </div>
+				  <div> 
+					  <input type="submit" value="登 录">
+				  </div>
+				  <div class="kpl">
+					  <div>忘记密码?</div>
+					  <div>手机号登录</div>
+				  </div>
+				  <div>其它方式登录</div>
+				  <div><img src="hh.img/ty.png"/></div> 
+			  </div>
+			  <div>小米公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号</div>
+		  </div>
+	</body>
+</html>
